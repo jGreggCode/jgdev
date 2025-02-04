@@ -11,7 +11,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={jost}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/jGreggCode/JOST"
           title="JASDY"
           description="A Web-based DMS"
         />

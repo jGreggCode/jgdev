@@ -12,22 +12,21 @@ const Skills = () => {
         <SkillList src={checkmarkLight} skill="HTML" />
         <SkillList src={checkmarkLight} skill="CSS" />
         <SkillList src={checkmarkLight} skill="Javascript" />
-        <SkillList src={checkmarkLight} skill="Typescript" />
-        <SkillList src={checkmarkLight} skill="Node" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkmarkLight} skill="React" />
-        <SkillList src={checkmarkLight} skill="CSS" />
-        <SkillList src={checkmarkLight} skill="Javascript" />
         <SkillList src={checkmarkLight} skill="Typescript" />
-        <SkillList src={checkmarkLight} skill="Node" />
+        <SkillList src={checkmarkLight} skill="Nodejs" />
+        <SkillList src={checkmarkLight} skill="Reactjs" />
+        <SkillList src={checkmarkLight} skill="Java" />
+        <SkillList src={checkmarkLight} skill="Python" />
+        <SkillList src={checkmarkLight} skill="PHP" />
+        <SkillList src={checkmarkLight} skill="C#/C++" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkmarkLight} skill="Git" />
-        <SkillList src={checkmarkLight} skill="Bootstrap" />
-        <SkillList src={checkmarkLight} skill="Tailwind" />
+        <SkillList src={checkmarkLight} skill="MYSQL" />
+        <SkillList src={checkmarkLight} skill="Mongodb" />
       </div>
     </section>
   );
