@@ -12,8 +12,8 @@ function Projects() {
         <ProjectCard
           src={jost}
           link="https://github.com/jGreggCode/JOST"
-          title="JASDY"
-          description="A Web-based DMS"
+          title="JOST"
+          description="Web-based dashboard for Jasdy Shop"
         />
         <ProjectCard
           src={projectzilch}
