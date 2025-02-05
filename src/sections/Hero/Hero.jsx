@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedInLight from "../../assets/linkedin-light.svg";
 import linkedInDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/JGDEV-Resume.pdf";
+//import CV from "../../assets/JGDEV-Resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import { useState, useEffect } from "react";
 
@@ -78,12 +78,12 @@ const Hero = () => {
           </a>
         </span>
         <p className={styles.description}>
-          I'm a freelance web and app developer, also offering computer
+          I&apos;m a freelance web and app developer, also offering computer
           maintenance services. I build reliable, user-friendly websites and
           systems tailored to your needs. Let’s work together to bring your
           project to life!
         </p>
-        <a href={CV} download>
+        <a href="#" download>
           <button className="hover">Resume</button>
         </a>
       </div>
