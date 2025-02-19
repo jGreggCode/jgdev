@@ -3,6 +3,8 @@ import jost from "../../assets/jost.jpg";
 import projectzilch from "../../assets/projectzilch.png";
 import ProjectCard from "../../common/ProjectCard";
 import githubLogo from "../../assets/githubLogo.png";
+import rentit from "../../assets/rentit.png";
+import g from "../../assets/G.png";
 
 function Projects() {
   return (
@@ -20,6 +22,18 @@ function Projects() {
           link=""
           title="Project Zilch"
           description="A multi purpose discord bot"
+        />
+        <ProjectCard
+          src={rentit}
+          link=""
+          title="Rent IT"
+          description="Easy dorm and apartment bookings."
+        />
+        <ProjectCard
+          src={g}
+          link=""
+          title="G"
+          description="A Twitter (X) Clone"
         />
         <ProjectCard
           src={githubLogo}
